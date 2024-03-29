@@ -13,7 +13,7 @@
 <body>
 <center>
 
-  <h1>DAFT PUNK SOUNDBOARD</h1>
+  <h1><i>DAFT PUNK SOUNDBOARD</i></h1>
   <a href="https://github.com/ELDRAZI-17/Daft-Punk-Soundboard" target="blank"><img src="github-mark-white.svg" height="30"></a>
   <p>&nbsp;</p>
 
@@ -85,38 +85,47 @@
     <source src="audio/all.wav" type="audio/wav">
   </audio>
 
+  <audio id="all_2">
+    <source src="audio/all.wav" type="audio/wav">
+  </audio>
+
   <p>
-    <button class="button-37" onclick="playAudio('work_it')">WORK IT</button>
-    <button class="button-37" onclick="playAudio('make_it')">MAKE IT</button>
-    <button class="button-37" onclick="playAudio('do_it')">DO IT</button>
-    <button class="button-37" onclick="playAudio('makes_us')">MAKES US</button>
+    <button class="button-37" onclick="playAudio('work_it')">Work it</button>
+    <button class="button-37" onclick="playAudio('make_it')">Make it</button>
+    <button class="button-37" onclick="playAudio('do_it')">Do it</button>
+    <button class="button-37" onclick="playAudio('makes_us')">Makes us</button>
   </p>
 
   <p>
-    <button class="button-37" onclick="playAudio('harder')">HARDER</button>
-    <button class="button-37" onclick="playAudio('better')">BETTER</button>
-    <button class="button-37" onclick="playAudio('faster')">FASTER</button>
-    <button class="button-37" onclick="playAudio('stronger')">STRONGER</button>
+    <button class="button-37" onclick="playAudio('harder')">Harder</button>
+    <button class="button-37" onclick="playAudio('better')">Better</button>
+    <button class="button-37" onclick="playAudio('faster')">Faster</button>
+    <button class="button-37" onclick="playAudio('stronger')">Stronger</button>
   </p>
 
   <p>
-    <button class="button-37" onclick="playAudio('more_than')">MORE THAN</button>
-    <button class="button-37" onclick="playAudio('hour')">HOUR</button>
-    <button class="button-37" onclick="playAudio('our')">OUR</button>
-    <button class="button-37" onclick="playAudio('never')">NEVER</button>
+    <button class="button-37" onclick="playAudio('more_than')">More Than</button>
+    <button class="button-37" onclick="playAudio('hour')">Hour</button>
+    <button class="button-37" onclick="playAudio('our')">Our</button>
+    <button class="button-37" onclick="playAudio('never')">Never</button>
   </p>
 
   <p>
-    <button class="button-37" onclick="playAudio('ever')">EVER</button>
-    <button class="button-37" onclick="playAudio('after')">AFTER</button>
-    <button class="button-37" onclick="playAudio('work_is')">WORK IS</button>
-    <button class="button-37" onclick="playAudio('over')">OVER</button>
+    <button class="button-37" onclick="playAudio('ever')">Ever</button>
+    <button class="button-37" onclick="playAudio('after')">After</button>
+    <button class="button-37" onclick="playAudio('work_is')">Work is</button>
+    <button class="button-37" onclick="playAudio('over')">Over</button>
   </p>
 
   <p>&nbsp;</p>
   <p>
-    <button class="button-37" onclick="playAudio('all')">ALL</button>
-    <button class="button-37" id="fullscreen-btn">FULLSCREEN</button>
+    <button class="button-37" onclick="playAudio('all')">All</button>
+    <button class="button-37" onclick="playAudio('all_2')">All 2</button>
+  </p>
+
+  <p>
+    <button class="button-37" id="fullscreen-btn">Fullscreen</button>
+    <button class="button-37" onclick="refreshPage()">Stop</button>
   </p>
   <p>&nbsp;</p>
 
