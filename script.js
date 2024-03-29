@@ -3,6 +3,10 @@ function playAudio(soundId) {
   audio.play();
 }
 
+function refreshPage() {
+    location.reload();
+}
+
 var fullscreenBtn = document.getElementById('fullscreen-btn');
 
 fullscreenBtn.addEventListener('click', function() {
