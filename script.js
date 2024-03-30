@@ -136,7 +136,7 @@ document.addEventListener("keydown", function(event) {
 });
 
 
-//MIDI Input
+//MIDI input
 document.addEventListener('DOMContentLoaded', function() {
   if (navigator.requestMIDIAccess) {
     navigator.requestMIDIAccess()
