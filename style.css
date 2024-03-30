@@ -5,6 +5,11 @@ body {
   text-shadow: gray 1px 0 10px;
 }
 
+th {
+  border: 2px solid white;
+  padding: 8px 10px;
+}
+
 td {
   border: 2px solid white;
   padding: 8px 10px;
