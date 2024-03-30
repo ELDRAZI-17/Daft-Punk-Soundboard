@@ -121,5 +121,9 @@ document.addEventListener("keydown", function(event) {
     case "x":
       playAudio('all_2');
       break;
+
+    case "c":
+      stopAllAudio();
+      break;
   }
 });
