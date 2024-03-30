@@ -1,12 +1,13 @@
 body {
   background-color: black;
   font-family: Arial;
+  color : white;
+  text-shadow: gray 1px 0 10px;
 }
 
 td {
   border: 2px solid white;
   padding: 8px 10px;
-  color : white;
 }
 
 table {
@@ -14,11 +15,6 @@ table {
   border: 2px solid white;
   font-size: 0.8rem;
   letter-spacing: 1px;
-}
-
-h1 {
-  color : white;
-  text-shadow: gray 1px 0 10px;
 }
 
 .button-37 {
