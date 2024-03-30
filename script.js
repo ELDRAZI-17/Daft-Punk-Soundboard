@@ -4,6 +4,8 @@ function playAudio(soundId) {
   audio.play();
 }
 
+
+//stop audio
 function stopAllAudio() {
   var allAudio = document.querySelectorAll('audio');
   allAudio.forEach(function(audio) {
